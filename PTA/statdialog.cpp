@@ -25,7 +25,7 @@ StatDialog::StatDialog(PItem* item)
 
     setWindowFlags(flags);
 
-    setStyleSheet("background-color: #1c1b19; color: #a38d6d;");
+    setStyleSheet("background-color: #ffffff; color: #000000;");
 
     QGridLayout* layout = new QGridLayout();
 
