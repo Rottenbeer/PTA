@@ -4,7 +4,7 @@
 
 #include <QtWidgets>
 
-const QMap<std::string, QString> g_labelStyles = {{"Unique", "color: #af6025;"}, {"Rare", "color: #ff7;"}, {"Magic", "color: #88f;"}};
+const QMap<std::string, QString> g_labelStyles = {{"Unique", "background-color: #1c1b19; color: #af6025;"}, {"Rare", "background-color: #1c1b19; color: #ff7;"}, {"Magic", "background-color: #1c1b19; color: #88f"}};
 
 StatDialog::StatDialog(PItem* item)
 {
